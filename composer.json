@@ -1,0 +1,21 @@
+{
+    "name": "fiftytwo/edex",
+    "description": "This package can be used to import EDEX files in PHP arrays",
+    "keywords": ["edex","edexll","edexlk","edexgr","edexlg","php","laravel"],
+    "authors": [
+        {
+            "name": "Daan Aikema",
+            "email": "daan@52software.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Fiftytwo\\Edex": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
