@@ -1,7 +1,8 @@
 {
-    "name": "fiftytwo/edex",
+    "name": "52software/edex",
     "description": "This package can be used to import EDEX files in PHP arrays",
-    "keywords": ["edex","edexll","edexlk","edexgr","edexlg","php","laravel"],
+    "keywords": ["edex","edexll","edexlk","edexgr","edexlg","php","laravel","52software"],
+    "homepage": "http://www.52software.nl",
     "authors": [
         {
             "name": "Daan Aikema",

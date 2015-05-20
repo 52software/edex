@@ -33,13 +33,13 @@ $teachers = Edex::import( Input::get('edexlk'), 'edexlk' );
 Composer can be used to install this package. Add this row to the require array:
 
 ```
-"fiftytwo/edex": "dev-master" 
+"52software/edex": "dev-master" 
 ```
 
 or you can require it in your console:
 
 ```
-composer require fiftytwo/edex
+composer require 52software/edex
 ```
 
 ## Laravel 4
