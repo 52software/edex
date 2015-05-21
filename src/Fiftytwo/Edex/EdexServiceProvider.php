@@ -19,8 +19,6 @@ class EdexServiceProvider extends ServiceProvider {
 	public function boot()
 	{
 		$this->package('fiftytwo/edex');
-
-		include __DIR__.'/../../routes.php';
 	}
 
 	/**

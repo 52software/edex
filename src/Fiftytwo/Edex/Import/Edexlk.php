@@ -8,4 +8,11 @@ class Edexlk extends Import
 	 * @var array
 	 */
 	protected $lengths = [40,10,20,5,4,5];
+
+	/**
+	 * The different field names
+	 *
+	 * @var array
+	 */
+	protected $fields = ['achternaam','tussenvoegsel','voornaam','leerkrachtkey','brincode_school','dependancecode_school'];
 }

@@ -78,9 +78,10 @@ abstract class Import
 			$row = [];
 
 			$start = 0;
-			foreach($this->lengths AS $length)
+			foreach($this->lengths AS $i => $length)
 			{
-				$row[] = trim(substr($content, $start, $length));
+				$key = isset($this->fields[$i]) ? $this->fields[$i] : '';
+				$row[ $key ] = trim(substr($content, $start, $length));
 
 				$start += $length;
 			}
